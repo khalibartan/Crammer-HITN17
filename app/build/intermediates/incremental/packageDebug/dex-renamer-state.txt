@@ -1,0 +1,7 @@
+#Fri Mar 24 03:11:26 IST 2017
+base.0=/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_1affd272e18451e2386333766c8cd533a9383e65
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_7276547975a8def3f740a855f9c1fad3cbdbfc3e/classes.dex
+base.1=/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_7276547975a8def3f740a855f9c1fad3cbdbfc3e
+file.0=/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_1affd272e18451e2386333766c8cd533a9383e65/classes.dex

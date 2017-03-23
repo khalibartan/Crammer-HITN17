@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.2.0_2746a5575d8fc4da5470ad9f3c17bcbf4f6c82d4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.2.0_a6151a7363a4dbd51474ab09d8f8700d4b410e72/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.2.0_753d01598a13ecb3d57603a10c3d07095a9e685d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.2.0_250b7ea56b7240ae4d59a6c5c93ddd30829c5ef7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.2.0_f86c9b70ac1bddac86a943d90d6326af26d82cb3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea82d83958d2d4c6ee0d03a4cf69cf4ebe7791a8">
+        <dex dex="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_1affd272e18451e2386333766c8cd533a9383e65/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.2.0_2248c292ade79acf20ffd0d46b81fd4bffe4fa00/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.2.0_ced6079eb1a332e4108832f428eafd0638d73f4a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/radhe/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.2.0_249501df88403136f9cd6c125328b443a97b0bac/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.2.0_341236ec038a74f58507535bd9687de56ec826ff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb4998c229aa12a2e1a3719676a8cf532f4d7cad">
+        <dex dex="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_7276547975a8def3f740a855f9c1fad3cbdbfc3e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.2.0_7374e74a911460f7562cf0f6966423561f927484/classes.dex" />
+    </item>
+
+</items>
