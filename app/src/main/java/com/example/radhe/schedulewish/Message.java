@@ -3,6 +3,7 @@ package com.example.radhe.schedulewish;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -34,19 +35,23 @@ public class Message extends AppCompatActivity {
                 date = new SelectDate().getDate();
                 month = new SelectDate().getMonth();
                 year = new SelectDate().getYear();
-                recipients = new EventDetail().getList();
+                recipients = new ContactDisplay().getList();
                 msg = tv.getText().toString();
-                String Date = String.valueOf(date) + "/" + String.valueOf(month) + "/" + String.valueOf(year);
+                String mm = String.valueOf(month);
+                if(mm.length()==1)
+                    mm='0'+mm;
+                String Date = String.valueOf(date) + "/" + mm + "/" + String.valueOf(year);
                 DBhelper dBhelper = new DBhelper(getApplicationContext());
                 for (int i = 0; i < recipients.size(); i++) {
                     String value = recipients.get(i);
                     String[] array = value.split("\n");
                     String number = array[1];
+                    Log.d("yaha dekho",Date);
                     dBhelper.insertContact(msg, Date, number);
                 }
 
 
-                Intent i = new Intent(getApplicationContext(), ShowDb.class);
+                Intent i = new Intent(getApplicationContext(),MainActivity.class);
                 startActivity(i);
             }
 

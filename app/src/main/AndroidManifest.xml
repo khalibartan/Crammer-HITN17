@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
 
     <application
         android:allowBackup="true"
@@ -22,7 +23,21 @@
         <activity android:name=".ContactDisplay" />
         <activity android:name=".SelectDate" />
         <activity android:name=".Message" />
-        <activity android:name=".ShowDb"></activity>
+        <activity android:name=".ShowDb" />
+        <activity android:name=".MyAlarmReciever" />
+
+        <receiver
+            android:name=".MyAlarmReciever"
+            android:enabled="true" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".SMSSender"></activity>
     </application>
 
 </manifest>

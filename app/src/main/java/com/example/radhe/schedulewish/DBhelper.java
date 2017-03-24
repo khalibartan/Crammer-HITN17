@@ -5,6 +5,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
 
 import java.util.ArrayList;
 
@@ -58,6 +59,23 @@ public class DBhelper extends SQLiteOpenHelper{
             array_list.add(res.getString(res.getColumnIndex(CONTACTS_COLUMN_CONTACT)));
             res.moveToNext();
         }
+        return array_list;
+    }
+
+
+    public ArrayList<String> getIndividuals(String date){
+
+        ArrayList<String> array_list = new ArrayList<String>();
+
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor res =  db.rawQuery( "select * from details where date = \'"+date+"\'", null );
+        res.moveToFirst();
+
+        while(res.isAfterLast() == false){
+            array_list.add(res.getString(res.getColumnIndex(CONTACTS_COLUMN_CONTACT)));
+            res.moveToNext();
+        }
+        Log.d("Query result",array_list.toString());
         return array_list;
     }
 

@@ -34,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="db811c4239c6514cabc4ab070a73f20469bc7fb7">
+        sha1="b0be98a0a373faea021443b0fb125ac90398f669">
         <dex dex="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_1affd272e18451e2386333766c8cd533a9383e65/classes.dex" />
     </item>
     <item
@@ -75,6 +75,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.4.0_074a066ddd888681f15ecee3b78fd8dce8932133/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -102,6 +111,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.4.0_385f6695763911320040ae66a83cdad6e047feea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -111,11 +129,20 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_c42bccec10484932b29c706ed6a815c123eddcc1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="9eb770524e4c06fc300756b64378fe1600b33e2f">
+        sha1="04e953475435a1b997bf8f37a0b35f30d22007c0">
         <dex dex="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_7276547975a8def3f740a855f9c1fad3cbdbfc3e/classes.dex" />
     </item>
     <item

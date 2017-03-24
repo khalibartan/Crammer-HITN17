@@ -10,6 +10,7 @@
 
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
 
     <application
         android:name="com.android.tools.fd.runtime.BootstrapApplication"
@@ -30,6 +31,20 @@
         <activity android:name="com.example.radhe.schedulewish.SelectDate" />
         <activity android:name="com.example.radhe.schedulewish.Message" />
         <activity android:name="com.example.radhe.schedulewish.ShowDb" />
+        <activity android:name="com.example.radhe.schedulewish.MyAlarmReciever" />
+
+        <receiver
+            android:name="com.example.radhe.schedulewish.MyAlarmReciever"
+            android:enabled="true" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name="com.example.radhe.schedulewish.SMSSender" />
     </application>
 
 </manifest>

@@ -54,7 +54,7 @@ public class EventDetail extends FragmentActivity {
             String con = hm.get("name")+"\n"+hm.get("contact");
             mylist.add(con);
         }
-        Log.d("in eventdetail",mylist.toString());
+     //   Log.d("in eventdetail",mylist.toString());
 
         return mylist;
     }

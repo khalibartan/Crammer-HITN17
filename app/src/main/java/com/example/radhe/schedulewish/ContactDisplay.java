@@ -24,11 +24,11 @@ import java.util.List;
 public class ContactDisplay extends AppCompatActivity {
 
     public ListView listView ;
-    public static List<HashMap<String,String>> list = new ArrayList<>();
-
+    public static List<String>  list = new ArrayList<>();
+    public List<String> mylist = new EventDetail().getList();
     public Button done;
 
-    public List<HashMap<String,String>> getList(){
+    public List<String> getList(){
         return list;
     }
 
@@ -49,7 +49,7 @@ public class ContactDisplay extends AppCompatActivity {
         });
 
         listView = (ListView) findViewById(R.id.list);
-        List<String> mylist = new EventDetail().getList();
+
         Log.d("list",mylist.toString());
 
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this,R.layout.list_item,R.id.ind_name,mylist);
@@ -63,10 +63,27 @@ public class ContactDisplay extends AppCompatActivity {
                 String []det = details.split("\n");
                 hm.put("name",det[0]);
                 hm.put("contact",det[1]);
-                list.add(hm);
-                //view.setBackgroundColor(Color.GRAY);
-                view.setSelected(true);
 
+                //view.setBackgroundColor(Color.GRAY);
+
+                String selected = mylist.get(position);
+                if (list.indexOf(selected)>=0){
+                    list.remove(selected);
+                    listView.getChildAt(position).setBackgroundColor(Color.TRANSPARENT);
+                }
+                else {
+                    list.add(selected);
+                    for (int i = 0; i < listView.getChildCount(); i++) {
+                        if(listView.getChildAt(i).toString().equals(selected)){
+                            listView.getChildAt(i).setBackgroundColor(Color.BLUE);
+                        }
+                    }
+
+                }
+                Log.d("selected",selected);
+               // listView.setItemChecked(position, true);
+                //view.setSelected(true);
+               // view.setBackgroundColor(Color.RED);
             }
         });
     }
