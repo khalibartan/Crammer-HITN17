@@ -64,7 +64,8 @@ public class ContactDisplay extends AppCompatActivity {
                 hm.put("name",det[0]);
                 hm.put("contact",det[1]);
                 list.add(hm);
-                view.setBackgroundColor(Color.GRAY);
+                //view.setBackgroundColor(Color.GRAY);
+                view.setSelected(true);
 
             }
         });

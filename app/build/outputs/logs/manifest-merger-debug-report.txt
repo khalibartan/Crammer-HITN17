@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:2:1-26:12
+ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:3:5-45
 		INJECTED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml
@@ -22,7 +22,7 @@ ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidMani
 	android:name
 		ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:6:22-78
 application
-ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:8:5-24:19
+ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:8:5-26:19
 MERGED from [com.android.support:design:25.2.0] /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/design/25.2.0/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:25.2.0] /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.2.0/AndroidManifest.xml:22:5-20
@@ -67,9 +67,17 @@ ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidMani
 	android:name
 		ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:22:19-49
 activity#com.example.radhe.schedulewish.SelectDate
-ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:23:9-57
+ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:23:9-48
 	android:name
 		ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:23:19-45
+activity#com.example.radhe.schedulewish.Message
+ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:24:9-45
+	android:name
+		ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:24:19-42
+activity#com.example.radhe.schedulewish.ShowDb
+ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:25:9-53
+	android:name
+		ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:25:19-41
 uses-sdk
 INJECTED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.2.0] /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/design/25.2.0/AndroidManifest.xml:21:5-23:62

@@ -5,55 +5,37 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="10367259732702"
+    timestamp="17317072340678"
     token="-9136685499032310362"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="172" />
+        duration="201" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="34" />
+        duration="17" />
     <task
         name="verifier"
-        duration="1" />
+        duration="0" />
 
-    <artifact
-        location="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-        type="RESOURCES" />
-    <artifact
-        location="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
-        type="DEX" />
     <artifact
         location="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
         type="DEX" />
 
     <build
-        timestamp="9587030544107"
-        verifier="MANIFEST_FILE_CHANGE" >
+        timestamp="16963495375235"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="10367259732702"
+        timestamp="17317072340678"
         verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
-        <artifact
-            location="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
-            type="DEX" />
         <artifact
             location="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
             type="DEX" />

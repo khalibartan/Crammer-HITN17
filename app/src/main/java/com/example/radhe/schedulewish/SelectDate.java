@@ -21,6 +21,15 @@ public class SelectDate extends AppCompatActivity {
     public DatePicker datePicker;
     public Button next;
 
+    public int getDate(){
+        return date;
+    }
+    public int getMonth(){
+        return month;
+    }
+    public int getYear(){
+        return  year;
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,8 +48,8 @@ public class SelectDate extends AppCompatActivity {
                 year = datePicker.getYear();
                 Log.d("date",date+" "+month+" "+year);
 
-               // Intent i = new Intent(this,c.class);
-                //startActivity(i);
+                Intent i = new Intent(getApplicationContext(),Message.class);
+                startActivity(i);
             }
         });
 

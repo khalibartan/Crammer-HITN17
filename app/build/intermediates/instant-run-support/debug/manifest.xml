@@ -28,6 +28,8 @@
         <activity android:name="com.example.radhe.schedulewish.EventDetail" />
         <activity android:name="com.example.radhe.schedulewish.ContactDisplay" />
         <activity android:name="com.example.radhe.schedulewish.SelectDate" />
+        <activity android:name="com.example.radhe.schedulewish.Message" />
+        <activity android:name="com.example.radhe.schedulewish.ShowDb" />
     </application>
 
 </manifest>
