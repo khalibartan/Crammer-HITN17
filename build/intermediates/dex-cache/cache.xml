@@ -3,6 +3,15 @@
 
     <item
         is-multidex="true"
+        jar="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/design/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.2.0_1b9299cfbb2bd91b76091120471c89cf559c399f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -52,7 +61,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="ad070371553a88f2d5cd014122fd95ad184b3962">
+        sha1="9a9c5a678b4c2431d7232fe4c6b75d1545fd37b9">
         <dex dex="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_1affd272e18451e2386333766c8cd533a9383e65/classes.dex" />
     </item>
     <item
@@ -108,6 +117,15 @@
         revision="25.0.2"
         sha1="f91d6083617c3b44ae0762aee59a2b84228fb58d">
         <dex dex="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_7276547975a8def3f740a855f9c1fad3cbdbfc3e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/transition/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.2.0_7765e6e21bcc18daf52ce88231c136cf7950ad01/classes.dex" />
     </item>
     <item
         is-multidex="true"

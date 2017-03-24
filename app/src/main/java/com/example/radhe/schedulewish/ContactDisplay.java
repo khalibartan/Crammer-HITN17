@@ -1,6 +1,7 @@
 package com.example.radhe.schedulewish;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -27,14 +28,26 @@ public class ContactDisplay extends AppCompatActivity {
 
     public Button done;
 
-    public List<HashMap<String,String>> returnList(){
+    public List<HashMap<String,String>> getList(){
         return list;
     }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contact_display);
+
+        done = (Button) findViewById(R.id.done);
+        done.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(),SelectDate.class);
+                startActivity(i);
+
+            }
+        });
+
         listView = (ListView) findViewById(R.id.list);
         List<String> mylist = new EventDetail().getList();
         Log.d("list",mylist.toString());

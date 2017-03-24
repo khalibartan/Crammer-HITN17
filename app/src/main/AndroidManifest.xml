@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".EventDetail" />
-        <activity android:name=".ContactDisplay"></activity>
+        <activity android:name=".ContactDisplay" />
+        <activity android:name=".SelectDate"></activity>
     </application>
 
 </manifest>
