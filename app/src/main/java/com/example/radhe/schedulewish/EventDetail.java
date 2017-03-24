@@ -3,8 +3,10 @@ package com.example.radhe.schedulewish;
 import android.Manifest;
 import android.content.ContentResolver;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Build;
 import android.provider.ContactsContract;
@@ -23,7 +25,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class EventDetail extends FragmentActivity implements ContactsDisplay.OnFragmentInteractionListener {
+public class EventDetail extends FragmentActivity {
 
 
     public static ArrayList<HashMap<String,String>> list = new ArrayList<>();
@@ -38,10 +40,8 @@ public class EventDetail extends FragmentActivity implements ContactsDisplay.OnF
         participant.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+               // participant.setVisibility(View.GONE);
                 showContacts();
-
-
             }
         });
 
@@ -66,8 +66,11 @@ public class EventDetail extends FragmentActivity implements ContactsDisplay.OnF
         } else {
             // Android version is lesser than 6.0 or the permission is already granted.
              getContacts();
-             Bundle bundle = new Bundle();
-             bundle.putSerializable("contact",list);
+
+            Intent i = new Intent(this,ContactDisplay.class);
+            startActivity(i);
+
+           /*
             FragmentTransaction ft= getSupportFragmentManager().beginTransaction();
             ContactsDisplay contactsDisplay = new ContactsDisplay();
             contactsDisplay.setArguments(bundle);
@@ -75,6 +78,12 @@ public class EventDetail extends FragmentActivity implements ContactsDisplay.OnF
             //ft.replace(R.id.activity_event_detail,contactsDisplay);
             ft.add(R.id.fragment, contactsDisplay, "hello");
             ft.commit();
+
+            */
+
+
+
+
 
         }
     }
@@ -109,8 +118,5 @@ public class EventDetail extends FragmentActivity implements ContactsDisplay.OnF
         phones.close();
     }
 
-    @Override
-    public void onFragmentInteraction(Uri uri) {
 
-    }
 }

@@ -26,6 +26,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.radhe.schedulewish.EventDetail" />
+        <activity android:name="com.example.radhe.schedulewish.ContactDisplay" />
     </application>
 
 </manifest>

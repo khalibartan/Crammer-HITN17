@@ -16,10 +16,6 @@
         "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/layout/notification_template_media.xml"
     },
     {
-        "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/layout/fragment_contacts_display.xml",
-        "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/res/layout/fragment_contacts_display.xml"
-    },
-    {
         "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
         "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/layout/abc_action_bar_title_item.xml"
     },
@@ -102,6 +98,10 @@
     {
         "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/layout/notification_action.xml",
         "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/layout/activity_contact_display.xml",
+        "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/res/layout/activity_contact_display.xml"
     },
     {
         "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",

@@ -11,6 +11,8 @@
     tools:context="com.example.radhe.schedulewish.EventDetail"
     android:elevation="1dp">
 
+
+
     <Spinner
         android:layout_width="200dp"
         android:layout_height="wrap_content"
@@ -46,14 +48,5 @@
         android:layout_below="@+id/spinner"
         android:layout_centerHorizontal="true" />
 
-    <fragment
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:name="com.example.radhe.schedulewish.ContactsDisplay"
-        android:id="@+id/fragment"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
 
 </RelativeLayout>
