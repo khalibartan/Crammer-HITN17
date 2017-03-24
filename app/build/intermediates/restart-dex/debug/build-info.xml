@@ -5,29 +5,29 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="35399249188011"
+    timestamp="43809787720782"
     token="-9136685499032310362"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="553" />
+        duration="259" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="189" />
+        duration="173" />
     <task
         name="verifier"
-        duration="17" />
+        duration="18" />
 
     <artifact
         location="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="35399249188011"
+        timestamp="43809787720782"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/outputs/apk/app-debug.apk"

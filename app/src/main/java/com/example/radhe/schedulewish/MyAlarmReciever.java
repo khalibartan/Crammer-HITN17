@@ -38,7 +38,9 @@ public class MyAlarmReciever   extends BroadcastReceiver {
         list = new DBhelper(context).getIndividuals(formattedDate);
 
         for(int i=0;i<list.size();i++) {
-            new SMSSender().sendSMSMessage(list.get(i));
+            SMSSender ss = new SMSSender();
+            ss.sendSMSMessage(list.get(i));
+            Log.d("sent ","bhej diya");
         }
 
     }
