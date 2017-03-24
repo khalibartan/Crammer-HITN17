@@ -8,12 +8,20 @@
         "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/drawable/abc_vector_test.xml"
     },
     {
+        "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/drawable/hint.jpg",
+        "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/res/drawable/hint.jpg"
+    },
+    {
         "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
         "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
         "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/drawable/ic_launcher.png",
+        "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/res/drawable/ic_launcher.png"
     },
     {
         "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_light.xml",
@@ -32,12 +40,12 @@
         "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/drawable/abc_seekbar_track_material.xml"
     },
     {
-        "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
-        "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/drawable/abc_cab_background_top_material.xml"
-    },
-    {
         "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
         "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/drawable/abc_cab_background_top_material.xml"
     },
     {
         "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_light.xml",
@@ -198,6 +206,10 @@
     {
         "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
         "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/drawable/background.jpg",
+        "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/res/drawable/background.jpg"
     },
     {
         "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",

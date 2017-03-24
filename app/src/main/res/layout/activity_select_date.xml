@@ -8,7 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.radhe.schedulewish.SelectDate">
+    tools:context="com.example.radhe.schedulewish.SelectDate"
+    android:background="@drawable/background">
 
     <DatePicker
         android:layout_width="wrap_content"
@@ -17,7 +18,10 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:id="@+id/datePicker"
-        android:layout_marginBottom="40dp" />
+        android:layout_marginBottom="40dp"
+        android:calendarTextColor="@android:color/holo_blue_bright"
+        android:yearListSelectorColor="@android:color/background_light"
+        android:background="@android:color/white" />
 
     <TextView
         android:text="Select Date"
@@ -27,15 +31,16 @@
         android:id="@+id/textView3"
         android:textSize="30sp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/background_light" />
 
     <Button
         android:text="NEXT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/next"
         android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/datePicker"
-        android:layout_alignEnd="@+id/datePicker"
-        android:id="@+id/next" />
+        android:layout_centerHorizontal="true"
+        android:theme="@style/MyButton"/>
 
 </RelativeLayout>

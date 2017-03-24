@@ -14,6 +14,7 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -51,12 +52,14 @@ public class ContactDisplay extends AppCompatActivity {
         listView = (ListView) findViewById(R.id.list);
 
         Log.d("list",mylist.toString());
-
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this,R.layout.list_item,R.id.ind_name,mylist);
         listView.setAdapter(arrayAdapter);
+
+
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                listView.setChoiceMode(ListView.CHOICE_MODE_SINGLE);
                 HashMap<String,String>hm = new HashMap<String, String>();
                 TextView tv = (TextView) view.findViewById(R.id.ind_name);
                 String details = tv.getText().toString();
@@ -73,9 +76,16 @@ public class ContactDisplay extends AppCompatActivity {
                 }
                 else {
                     list.add(selected);
+                    //listView.getChildAt(position).setBackgroundColor(Color.BLUE);
+
                     for (int i = 0; i < listView.getChildCount(); i++) {
-                        if(listView.getChildAt(i).toString().equals(selected)){
+
+
+                        if(listView.getItemAtPosition(i).toString().equals(selected)){
                             listView.getChildAt(i).setBackgroundColor(Color.BLUE);
+
+                            Log.d("gggg",listView.getItemAtPosition(i).toString());
+                            break;
                         }
                     }
 

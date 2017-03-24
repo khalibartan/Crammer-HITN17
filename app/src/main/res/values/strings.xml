@@ -14,4 +14,8 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
+    <style name="MyButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/indigo</item>
+        <item name="colorButtonNormal">@color/pink</item>
+    </style>
 </resources>

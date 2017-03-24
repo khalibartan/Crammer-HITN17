@@ -28,21 +28,13 @@ import com.google.android.gms.appindexing.Thing;
 import com.google.android.gms.common.api.GoogleApiClient;
 
 public class MainActivity extends AppCompatActivity {
-
     public Button event;
-
-
     private AlarmManager alarmMgr;
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
      * See https://g.co/AppIndexing/AndroidStudio for more information.
      */
     private GoogleApiClient client;
-
-
-
-
-
     @RequiresApi(api = Build.VERSION_CODES.M)
     private void perm() {
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.SEND_SMS)
@@ -78,16 +70,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
-
-
-
-
-
-
-
-
-
     @RequiresApi(api = Build.VERSION_CODES.N)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -102,13 +84,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         perm();
-
-
         alarmMgr = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
-
-
         Intent intent = new Intent(this, MyAlarmReciever.class);
-
         PendingIntent pendingIntent = PendingIntent.getBroadcast(this, 0,
                 intent, PendingIntent.FLAG_UPDATE_CURRENT);
 

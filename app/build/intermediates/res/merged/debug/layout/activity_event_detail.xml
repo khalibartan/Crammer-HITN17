@@ -9,7 +9,9 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.radhe.schedulewish.EventDetail"
-    android:elevation="1dp">
+    android:elevation="1dp"
+    android:background="@drawable/background"
+    android:contextClickable="false">
 
 
 
@@ -25,7 +27,10 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_marginRight="13dp"
-        android:layout_marginEnd="13dp" />
+        android:layout_marginEnd="13dp"
+        android:foreground="@android:color/transparent"
+        android:spinnerMode="dialog"
+        android:background="@color/pink" />
 
     <TextView
         android:text="Select Event"
@@ -37,15 +42,19 @@
         android:layout_marginRight="25dp"
         android:layout_marginEnd="25dp"
         android:id="@+id/textView"
-        android:layout_alignTop="@+id/spinner" />
+        android:textSize="18sp"
+        android:layout_alignTop="@+id/spinner"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textColorHighlight="@color/common_google_signin_btn_text_dark_default"
+        android:textColorLink="@android:color/transparent" />
 
     <Button
-        android:text="Add receipents"
+        android:text="Add Recepients"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="39dp"
         android:id="@+id/participants"
-        android:layout_below="@+id/spinner"
+        android:theme="@style/MyButton"
+        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 
 

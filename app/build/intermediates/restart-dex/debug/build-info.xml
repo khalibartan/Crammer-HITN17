@@ -5,33 +5,40 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="43809787720782"
+    timestamp="16571224602862"
     token="-9136685499032310362"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="259" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="173" />
+        duration="0" />
     <task
         name="verifier"
-        duration="18" />
+        duration="0" />
 
     <artifact
-        location="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
-        timestamp="43809787720782"
+        timestamp="16338426136071"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="16571224602862"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

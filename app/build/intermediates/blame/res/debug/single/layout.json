@@ -8,12 +8,12 @@
         "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/layout/notification_template_media.xml"
     },
     {
-        "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
-        "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/design/25.2.0/res/layout/design_navigation_item_subheader.xml"
-    },
-    {
         "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
         "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/design/25.2.0/res/layout/design_navigation_item_subheader.xml"
     },
     {
         "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/layout/notification_template_custom_big.xml",
@@ -52,12 +52,12 @@
         "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/design/25.2.0/res/layout/design_menu_item_action_area.xml"
     },
     {
-        "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
-        "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/layout/abc_list_menu_item_layout.xml"
-    },
-    {
         "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
         "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/layout/abc_list_menu_item_layout.xml"
     },
     {
         "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
@@ -68,16 +68,16 @@
         "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/design/25.2.0/res/layout/design_layout_tab_icon.xml"
     },
     {
-        "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
-        "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/design/25.2.0/res/layout/design_navigation_item_separator.xml"
+        "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
+        "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/design/25.2.0/res/layout/design_text_input_password_icon.xml"
     },
     {
         "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
         "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/design/25.2.0/res/layout/design_navigation_menu.xml"
     },
     {
-        "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
-        "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/design/25.2.0/res/layout/design_text_input_password_icon.xml"
+        "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/design/25.2.0/res/layout/design_navigation_item_separator.xml"
     },
     {
         "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/layout/activity_service.xml",

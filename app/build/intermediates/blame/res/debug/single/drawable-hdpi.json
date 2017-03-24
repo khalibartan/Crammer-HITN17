@@ -20,12 +20,12 @@
         "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_text_light_normal.9.png"
     },
     {
-        "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/drawable-hdpi/common_plus_signin_btn_text_light_focused.9.png",
-        "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_text_light_focused.9.png"
-    },
-    {
         "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/drawable-hdpi/common_google_signin_btn_icon_dark_focused.9.png",
         "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/drawable-hdpi/common_plus_signin_btn_text_light_focused.9.png",
+        "source": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_text_light_focused.9.png"
     },
     {
         "merged": "/home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/res/merged/debug/drawable-hdpi/common_plus_signin_btn_icon_dark_disabled.9.png",
