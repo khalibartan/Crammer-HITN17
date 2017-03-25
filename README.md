@@ -25,9 +25,9 @@ And Schedule Wish will send the message to selected contacts on specified date.
 
 ## How To Install
 
-Just Download the Schedule Wish apk file and install in your android device.
+Just download the Schedule Wish apk file and install in your android device.
 
-## Tentaive Features
+## Tentative Features
 
 - Importing Events from Google Calendar.
 
