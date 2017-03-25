@@ -7,19 +7,19 @@ Schedule Wish allows you to schedule sms wishes on specified dates to selected p
 Schedule Wish comes with simple and intutive UI and here is how you can use schedule wish:
 
 - Open the app and press `Wish Karo` button.
-![Home](/images/1.png){:height="192px" width="108px"}
+<img src="/images/1.png" heigth="384" width="216">
 
 - Select the category and press Add recipients.
-![Add_recipients](/images/2.png){:height="192px" width="108px"}
+<img src="/images/2.png" heigth="384" width="216">
 
 - Select the contacts by marking the check boxes in front of the contact.
-![contact](/images/3.png){:height="192px" width="108px"}
+<img src="/images/3.png" heigth="384" width="216">
 
 - Choose the date on which you want to send the sms, from the calendar.
-![calendar](/images/4.png){:height="192px" width="108px"}
+<img src="/images/4.png" heigth="384" width="216">
 
 - Now add the text message and press `Done`.
-![Done](images/5.png){:height="192px" width="108px"}
+<img src="/images/5.png" heigth="384" width="216">
 
 And Schedule Wish will send the message to selected contacts on specified date.
 
