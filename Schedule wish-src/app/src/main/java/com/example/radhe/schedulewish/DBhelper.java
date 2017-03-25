@@ -95,7 +95,7 @@ public class DBhelper extends SQLiteOpenHelper{
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
         contentValues.put("flag",0);
-        db.update("details", contentValues, "\"1\""+ "= ? ", new String[] { Integer.toString(1) } );
+        db.update("details", contentValues, "1", new String[] {  } );
         return true;
     }
 
