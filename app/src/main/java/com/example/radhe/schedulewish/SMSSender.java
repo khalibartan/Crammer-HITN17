@@ -16,7 +16,6 @@ import android.widget.Toast;
 
 public class SMSSender extends Activity {
 
-    String message;
     String phoneNo;
     private static final int MY_PERMISSIONS_REQUEST_SEND_SMS = 10;
 
@@ -27,8 +26,7 @@ public class SMSSender extends Activity {
       //  grantPermissionForCamera(phone);
     }
     @RequiresApi(api = Build.VERSION_CODES.M)
-    public void sendSMSMessage(String phone) {
-        message = "kuch bhi";
+    public void sendSMSMessage(String phone,String message) {
         String st = "";
         for (int i = 0; i < phone.length(); i++) {
             if (phone.charAt(i) != ' ') {
@@ -38,7 +36,8 @@ public class SMSSender extends Activity {
             Log.d("Formatted phone no", phoneNo);
         }
         SmsManager smsManager = SmsManager.getDefault();
-        smsManager.sendTextMessage(phoneNo, null, "sms message", null, null);
+        if(message!=null && !message.equals(""))
+        smsManager.sendTextMessage(phoneNo, null, message, null, null);
     }
 
 

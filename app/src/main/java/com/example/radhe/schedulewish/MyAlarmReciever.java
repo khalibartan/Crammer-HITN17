@@ -17,17 +17,18 @@ import android.util.Log;
 import android.widget.Toast;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class MyAlarmReciever   extends BroadcastReceiver {
 
 
 
-    public  ArrayList<String > list = new ArrayList<>();
+    public  ArrayList<HashMap<String,String>> list = new ArrayList<>();
     @RequiresApi(api = Build.VERSION_CODES.N)
     @Override
     public void onReceive(Context context, Intent intent) {
         Log.e("onReceive", "ladskjflsakjdflskjdflskjdfslkjdflasdf");
-        Toast.makeText(context, "OnReceive alarm test", Toast.LENGTH_LONG).show();
+      //  Toast.makeText(context, "OnReceive alarm test", Toast.LENGTH_LONG).show();
 
         Calendar c = Calendar.getInstance();
         Log.d("Current time => ",c.getTime().toString());
@@ -39,7 +40,9 @@ public class MyAlarmReciever   extends BroadcastReceiver {
 
         for(int i=0;i<list.size();i++) {
             SMSSender ss = new SMSSender();
-            ss.sendSMSMessage(list.get(i));
+            ss.sendSMSMessage(list.get(i).get("number"),list.get(i).get("message"));
+            Log.d("number",list.get(i).get("number"));
+            Log.d("message",list.get(i).get("message"));
             Log.d("sent ","bhej diya");
         }
 

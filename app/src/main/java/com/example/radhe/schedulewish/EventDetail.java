@@ -70,6 +70,15 @@ public class EventDetail extends FragmentActivity {
             Intent i = new Intent(this,ContactDisplay.class);
             startActivity(i);
 
+
+
+
+
+
+
+
+
+
            /*
             FragmentTransaction ft= getSupportFragmentManager().beginTransaction();
             ContactsDisplay contactsDisplay = new ContactsDisplay();

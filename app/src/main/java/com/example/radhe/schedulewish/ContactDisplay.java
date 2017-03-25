@@ -26,11 +26,14 @@ public class ContactDisplay extends AppCompatActivity {
 
     public ListView listView ;
     public static List<String>  list = new ArrayList<>();
+    public static List<Contacts> contacts_list = new ArrayList<>();
+    public ArrayAdapter<Contacts> listAdapter;
     public List<String> mylist = new EventDetail().getList();
     public Button done;
-
+    public View row;
+    public static List<String> final_ans = new ArrayList<>();
     public List<String> getList(){
-        return list;
+        return final_ans;
     }
 
 
@@ -43,31 +46,58 @@ public class ContactDisplay extends AppCompatActivity {
         done.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                for(int i=0;i<listAdapter.getCount();i++)
+                {
+                    Contacts c = listAdapter.getItem(i);
+                    if(c.isChecked())
+                    {
+                        final_ans.add(c.getName());
+                    }
+                }
+                Log.d("Final",final_ans.toString());
                 Intent i = new Intent(getApplicationContext(),SelectDate.class);
                 startActivity(i);
 
             }
         });
 
+
+
         listView = (ListView) findViewById(R.id.list);
 
         Log.d("list",mylist.toString());
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this,R.layout.list_item,R.id.ind_name,mylist);
-        listView.setAdapter(arrayAdapter);
+      //  ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this,R.layout.list_item,R.id.ind_name,mylist);
+
+
+
 
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                listView.setChoiceMode(ListView.CHOICE_MODE_SINGLE);
-                HashMap<String,String>hm = new HashMap<String, String>();
-                TextView tv = (TextView) view.findViewById(R.id.ind_name);
-                String details = tv.getText().toString();
-                String []det = details.split("\n");
-                hm.put("name",det[0]);
-                hm.put("contact",det[1]);
+                Contacts c = listAdapter.getItem(position);
+                c.toggleChecked();
+                ContactsViewHolder holder = (ContactsViewHolder)view.getTag();
+                holder.getCheckBox().setChecked(c.isChecked());
+            }
+        });
 
-                //view.setBackgroundColor(Color.GRAY);
+        for(int i=0;i<mylist.size();i++)
+        {
+            Contacts c = new Contacts(mylist.get(i));
+            contacts_list.add(c);
+        }
+
+        listAdapter = new CustomArrayAdapter(getApplicationContext(),contacts_list);
+        listView.setAdapter(listAdapter);
+
+
+        /*listView.setAdapter(arrayAdapter);
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
 
                 String selected = mylist.get(position);
                 if (list.indexOf(selected)>=0){
@@ -76,8 +106,10 @@ public class ContactDisplay extends AppCompatActivity {
                 }
                 else {
                     list.add(selected);
-                    //listView.getChildAt(position).setBackgroundColor(Color.BLUE);
+                    view.setBackgroundColor(Color.GREEN);
 
+                    //listView.getChildAt(position).setBackgroundColor(Color.BLUE);
+/*
                     for (int i = 0; i < listView.getChildCount(); i++) {
 
 
@@ -88,14 +120,15 @@ public class ContactDisplay extends AppCompatActivity {
                             break;
                         }
                     }
+                    */
 
-                }
-                Log.d("selected",selected);
+               /* }
+                Log.d("selected",selected);*/
                // listView.setItemChecked(position, true);
                 //view.setSelected(true);
                // view.setBackgroundColor(Color.RED);
-            }
-        });
+       //     }
+        //});
     }
 
 }

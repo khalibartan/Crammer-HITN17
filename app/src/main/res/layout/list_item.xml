@@ -8,8 +8,20 @@
         android:text="TextView"
         android:layout_width="match_parent"
         android:id="@+id/ind_name"
-        android:layout_marginRight="60dp"
-        android:textColor="@android:color/background_light"
-        android:layout_height="50dp" />
+        android:textColor="@android:color/white"
+        android:layout_height="70dp"
+        android:layout_marginRight="90dp" />
+
+    <CheckBox
+        android:text="CheckBox"
+        android:layout_width="wrap_content"
+        android:id="@+id/checkBox"
+        android:layout_height="70dp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="301dp"
+        android:layout_marginStart="301dp" />
 
 </RelativeLayout>

@@ -29,7 +29,6 @@
         <activity android:name="com.example.radhe.schedulewish.ContactDisplay" />
         <activity android:name="com.example.radhe.schedulewish.SelectDate" />
         <activity android:name="com.example.radhe.schedulewish.Message" />
-        <activity android:name="com.example.radhe.schedulewish.ShowDb" />
         <activity android:name="com.example.radhe.schedulewish.MyAlarmReciever" />
 
         <receiver
@@ -44,6 +43,7 @@
             android:value="@integer/google_play_services_version" />
 
         <activity android:name="com.example.radhe.schedulewish.SMSSender" />
+        <activity android:name="com.example.radhe.schedulewish.temp" />
     </application>
 
 </manifest>

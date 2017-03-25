@@ -10,7 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.radhe.schedulewish.MainActivity"
-    android:background="@drawable/hint">
+    android:background="@drawable/background">
 
     <Button
         android:text="Wish Karo"
@@ -27,8 +27,8 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/ic_launcher"
         android:id="@+id/imageView"
-        android:layout_alignParentTop="true"
+        android:layout_above="@+id/events"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="28dp" />
+        android:layout_marginBottom="74dp" />
 
 </RelativeLayout>

@@ -8,6 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * Created by radhe on 24/3/17.
@@ -63,16 +64,19 @@ public class DBhelper extends SQLiteOpenHelper{
     }
 
 
-    public ArrayList<String> getIndividuals(String date){
+    public ArrayList<HashMap<String,String>> getIndividuals(String date){
 
-        ArrayList<String> array_list = new ArrayList<String>();
+        ArrayList<HashMap<String,String >> array_list = new ArrayList<HashMap<String, String>>();
 
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor res =  db.rawQuery( "select * from details where date = \'"+date+"\'", null );
         res.moveToFirst();
 
         while(res.isAfterLast() == false){
-            array_list.add(res.getString(res.getColumnIndex(CONTACTS_COLUMN_CONTACT)));
+            HashMap<String ,String> hm = new HashMap<>();
+            hm.put("number",res.getString(res.getColumnIndex(CONTACTS_COLUMN_CONTACT)));
+            hm.put("message",res.getString(res.getColumnIndex("message")));
+            array_list.add(hm);
             res.moveToNext();
         }
         Log.d("Query result",array_list.toString());

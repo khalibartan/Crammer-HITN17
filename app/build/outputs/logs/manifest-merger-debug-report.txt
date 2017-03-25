@@ -80,31 +80,31 @@ activity#com.example.radhe.schedulewish.Message
 ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:25:9-45
 	android:name
 		ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:25:19-42
-activity#com.example.radhe.schedulewish.ShowDb
-ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:26:9-44
-	android:name
-		ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:26:19-41
 activity#com.example.radhe.schedulewish.MyAlarmReciever
-ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:27:9-53
+ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:26:9-53
 	android:name
-		ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:27:19-50
+		ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:26:19-50
 receiver#com.example.radhe.schedulewish.MyAlarmReciever
-ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:29:9-31:38
+ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:28:9-30:38
 	android:enabled
-		ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:31:13-35
+		ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:30:13-35
 	android:name
-		ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:30:13-44
+		ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:29:13-44
 meta-data#com.google.android.gms.version
-ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:36:9-38:69
+ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:35:9-37:69
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:38:13-66
+		ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:37:13-66
 	android:name
-		ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:37:13-58
+		ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:36:13-58
 activity#com.example.radhe.schedulewish.SMSSender
-ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:40:9-56
+ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:39:9-47
 	android:name
-		ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:40:19-44
+		ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:39:19-44
+activity#com.example.radhe.schedulewish.temp
+ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:40:9-51
+	android:name
+		ADDED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml:40:19-39
 uses-sdk
 INJECTED from /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.2.0] /home/radhe/Desktop/wariyaStuff/ScheduleWish/app/build/intermediates/exploded-aar/com.android.support/design/25.2.0/AndroidManifest.xml:21:5-23:62

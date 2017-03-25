@@ -23,7 +23,6 @@
         <activity android:name=".ContactDisplay" />
         <activity android:name=".SelectDate" />
         <activity android:name=".Message" />
-        <activity android:name=".ShowDb" />
         <activity android:name=".MyAlarmReciever" />
 
         <receiver
@@ -37,7 +36,8 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity android:name=".SMSSender"></activity>
+        <activity android:name=".SMSSender" />
+        <activity android:name=".temp"></activity>
     </application>
 
 </manifest>
