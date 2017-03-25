@@ -21,6 +21,7 @@ public class DBhelper extends SQLiteOpenHelper{
     public static final String CONTACTS_COLUMN_MESSAGE = "message";
     public static final String CONTACTS_COLUMN_DATE = "date";
     public static final String CONTACTS_COLUMN_CONTACT="contact";
+    public static final String CONTACTS_COLUMN_FLAG="flag";
 
     public DBhelper(Context context){
         super(context, DATABASE_NAME , null, 1);
@@ -30,7 +31,7 @@ public class DBhelper extends SQLiteOpenHelper{
     public void onCreate(SQLiteDatabase db) {
         db.execSQL(
                 "create table details " +
-                        "(id integer primary key autoincrement, message text,date text, contact text)"
+                        "(id integer primary key autoincrement, message text,date text, contact text, flag integer)"
         );
     }
 
@@ -69,7 +70,8 @@ public class DBhelper extends SQLiteOpenHelper{
         ArrayList<HashMap<String,String >> array_list = new ArrayList<HashMap<String, String>>();
 
         SQLiteDatabase db = this.getReadableDatabase();
-        Cursor res =  db.rawQuery( "select * from details where date = \'"+date+"\'", null );
+        Cursor res =  db.rawQuery( "select * from details where date = \'"+date+"\'"+" and flag = 0", null );
+        updateALLContact();
         res.moveToFirst();
 
         while(res.isAfterLast() == false){
@@ -77,10 +79,31 @@ public class DBhelper extends SQLiteOpenHelper{
             hm.put("number",res.getString(res.getColumnIndex(CONTACTS_COLUMN_CONTACT)));
             hm.put("message",res.getString(res.getColumnIndex("message")));
             array_list.add(hm);
+            updateParticular(date);
+
             res.moveToNext();
         }
         Log.d("Query result",array_list.toString());
+
+
+
+
+
         return array_list;
     }
+    public boolean updateALLContact() {
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues contentValues = new ContentValues();
+        contentValues.put("flag",0);
+        db.update("details", contentValues, "\"1\""+ "= ? ", new String[] { Integer.toString(1) } );
+        return true;
+    }
 
+    public boolean updateParticular(String date){
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues contentValues = new ContentValues();
+        contentValues.put("flag",1);
+        db.update("details", contentValues, "date = ?", new String[] { date} );
+        return true;
+    }
 }

@@ -44,6 +44,10 @@ public class MyAlarmReciever   extends BroadcastReceiver {
             Log.d("number",list.get(i).get("number"));
             Log.d("message",list.get(i).get("message"));
             Log.d("sent ","bhej diya");
+
+
+
+
         }
 
     }
